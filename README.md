@@ -1,2 +1,0 @@
-# theohrogalski_personal_website
-personal_website
