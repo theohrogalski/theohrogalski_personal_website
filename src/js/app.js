@@ -59,12 +59,12 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       "move": {
         "enable": true,
-        "speed": 4,
+        "speed": 2,
         "direction": "none",
-        "random": true,
+        "random": false,
         "straight": false,
         "out_mode": "out",
-        "bounce": false,
+        "bounce": true,
         "attract": {
           "enable": false,
           "rotateX": 600,
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
+          "enable": true,
           "mode": "grab"
         },
         "onclick": {
@@ -115,4 +115,4 @@ document.addEventListener("DOMContentLoaded", function () {
     "retina_detect": true
   });
 
-}, false);
+}, true);
