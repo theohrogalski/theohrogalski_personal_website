@@ -1,12 +1,14 @@
 <!DOCTYPE html>
+
 <style>
-    iframe.resume{
-        text-align: center;
-        display: block;
+    iframe.centered {
+        display: block;      /* makes margin: auto work */
+        margin: 0 auto;      /* splits the remaining horizontal space */         
+        border: none;        /* optional, aesthetic */
     }
-</style>
-<html>
-<div>
-    <iframe class="resume" src="https://drive.google.com/file/d/10b_kuGwpKKTw-sxBKbIn5DHIPcPDtg6D/preview" width="595px" height="842px"></iframe>
-</div>
-</html>
+    </style>
+    
+    <iframe
+      class="centered"
+      src=https://drive.google.com/file/d/10b_kuGwpKKTw-sxBKbIn5DHIPcPDtg6D/preview" width="595px" height="842px" loading="lazy">
+    </iframe>
